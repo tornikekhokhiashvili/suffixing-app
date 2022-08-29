@@ -23,9 +23,9 @@ Pay attention to the specification of the app:
     - if files are not specified, log `No files are configured to be copied/moved` at WARNING level and stop the execution.
     - if one of the specified files does not exist, log `No such file: <file-path>` at SEVERE level, but do not stop the processing of other files. Note that a file path in the message must contain not backslashes but *forward slashes* ('/') to separate the path parts. 
       Example: `No such file: src/test/resources/no-such-file.txt`
-    - When copying a file, log `<source-file> -> <destination-file>` at INFO level.\
+    - When moving a file, log `<source-file> -> <destination-file>` at INFO level.\
       Note, that file path in the message must contain  not backslashes but *forward slashes* (`/`) to separate path parts, not backslashes.\
       Example: `src/test/resources/file.txt -> src/test/resources/file-suffix.txt`      
-    - When copying a file, log `<source-file> => <destination-file>` at INFO level.\
+    - When moving a file, log `<source-file> => <destination-file>` at INFO level.\
       Note that file path in the message must contain  not backslashes but *forward slashes* (`/`) to separate path parts, not backslashes.\
       Example: `src/test/resources/file.txt => src/test/resources/file-suffix.txt`      
