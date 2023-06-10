@@ -18,11 +18,11 @@
     <dependencies>
 
         <dependency>
-            <groupId>suffixing</groupId>
+            <groupId>com.epam.rd.autotasks.suffixing.Main</groupId>
             <artifactId>suffixing</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/src/main/resources/suffixing.jar</systemPath>
+            <systemPath>${project.basedir}/out/artifacts/suffixing_app_test_jar/suffixing-app-test.jar</systemPath>
         </dependency>
 
 
