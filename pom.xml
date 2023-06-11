@@ -22,7 +22,7 @@
             <artifactId>suffixing</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/out/artifacts/suffixing_app_test_jar/suffixing-app-test.jar</systemPath>
+            <systemPath>${project.basedir}/src/main/resources/suffixing-app-test.jar</systemPath>
         </dependency>
 
 
